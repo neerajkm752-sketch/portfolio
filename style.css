@@ -84,4 +84,338 @@
     background-color: rgba(255, 255, 255, 0.18);
     border-color: #60a5fa;
 }
+/* writing css code for the skills section */
+.skills-section{
+     min-height: 100vh;
+     background: linear-gradient(
+        135deg,
+        #111827,
+        #1e3a8a,
+        #2563eb
+    );
+     color: white;
+   
+}
+.skills-heading {
+    margin-bottom: 60px;
+}
+.skills-heading h1{
+    /* font-weight controls how thick/bold the text is. */
+    font-weight: 700px;
+     font-size: 45px;
+      margin-bottom: 15px;
+     
+}
+.skills-heading p{
+    color: #dbeafe;
+    
+}
+.skill-card{
+    height: 100%;
+     padding: 30px;
+     background: #002861;
+      border: 1px solid rgba(255, 255, 255);
+       border-radius: 20px;
+       transition: 0.3s;
+}
+.skill-card:hover{
+    transform: translateY(-8px);
+    background: rgba(255, 255, 255, 0.13);
+    border-color: #60a5fa;
+     box-shadow: 0 15px 30px  rgba(0, 0, 0, 1);
+     /* 15px This is the vertical offset.
+negative means upar jaayega dark
+Positive means downward. */
+/* 0px x axis offset in it if +ve then on right side on negative on the left side */
+/* 30px is the blur radius Blur radius means how much the shadow spreads out and becomes soft/blurred around the object. */
+}
+.skill-card h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+
+    color: #93c5fd;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.skill-list span{
+    padding: 10px 18px;
+     background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 30px;
+       transition: 0.3s;
+}
+.skill-list span:hover {
+   background: #2563eb;
+    transform: scale(1.05);
+}
+
+/* writing the css of the project section
+```css */
+/* =========================================
+   PROJECTS PAGE
+========================================= */
+
+
+/* Projects Hero */
+
+.projects-hero {
+    padding: 80px 20px 50px;
+    background-color: #f8fafc;
+}
+
+
+.section-label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+
+.projects-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+
+.projects-intro {
+    max-width: 650px;
+    margin: auto;
+    color: #64748b;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Projects Section */
+
+.projects-section {
+    background-color: #f8fafc;
+    padding: 30px 20px 80px;
+}
+
+
+/* Project Card */
+
+.project-card {
+    background-color: #ffffff;
+
+    padding: 45px;
+
+    margin-bottom: 35px;
+
+    border-radius: 18px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+
+/* Card Hover */
+
+.project-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+}
+
+
+/* Project Image */
+
+.project-image {
+    height: 350px;
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    background-color: #e2e8f0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Actual Image */
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+
+/* Image Hover */
+
+.project-card:hover .project-image img {
+    transform: scale(1.03);
+}
+
+
+/* Project Number */
+
+.project-number {
+    display: inline-block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    color: #64748b;
+
+    margin-bottom: 10px;
+}
+
+
+/* Project Heading */
+
+.project-card h2 {
+    font-size: 32px;
+
+    font-weight: 700;
+
+    color: #0f172a;
+
+    margin-bottom: 15px;
+}
+
+
+/* Description */
+
+.project-description {
+    color: #475569;
+
+    line-height: 1.7;
+
+    font-size: 16px;
+}
+
+
+/* Technology */
+
+.technology {
+    color: #334155;
+
+    margin-top: 18px;
+}
+
+
+/* Practice Heading */
+
+.project-card h5 {
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: #0f172a;
+
+    margin-top: 25px;
+
+    margin-bottom: 12px;
+}
+
+
+/* Practice List */
+
+.practice-list {
+    padding-left: 20px;
+
+    color: #475569;
+}
+
+
+.practice-list li {
+    margin-bottom: 6px;
+}
+
+
+/* Buttons */
+
+.project-buttons {
+    display: flex;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.project-buttons .btn {
+    padding: 10px 20px;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 768px) {
+
+    .projects-hero {
+        padding: 60px 20px 40px;
+    }
+
+
+    .projects-hero h1 {
+        font-size: 38px;
+    }
+
+
+    .project-card {
+        padding: 25px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .project-image {
+        height: 250px;
+    }
+
+
+    .project-card h2 {
+        font-size: 27px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .projects-hero h1 {
+        font-size: 32px;
+    }
+
+
+    .project-buttons {
+        flex-direction: column;
+    }
+
+
+    .project-buttons .btn {
+        width: 100%;
+    }
+
+}
+
 
