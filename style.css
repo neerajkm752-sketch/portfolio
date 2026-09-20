@@ -50,7 +50,38 @@
     border-radius: 50%;
     object-fit: cover;
      border: 7px solid #7dd3fc;
-    
+}
+/* writing code for the about section */
+.about-section{
+    height: 110vh;
+    background: linear-gradient(135deg, #0B1220, #172554, #1E40AF);
+    color: #e2e8f0;
+}
+.about-image img{
+     height: 350px;
+    width: 300px;
+    border: 6px solid #045073;
+     border-radius: 12px;
+      object-fit: cover;
+}
+.interest-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
 
+    padding: 25px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.interest-card:hover {
+    transform: translateY(-8px);
+    background-color: rgba(255, 255, 255, 0.18);
+    border-color: #60a5fa;
 }
 
