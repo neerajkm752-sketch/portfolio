@@ -1,0 +1,56 @@
+/* making the home page navbar */
+.navbar {
+    background-color: #080d19;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #e2e8f0;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #7dd3fc;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+    padding-right: 70px;
+}
+ /* making the hero section on the homepage */
+   .hero {
+    height: 93vh;
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #2563eb
+    );
+}
+
+.hero .row {
+    min-height: 90vh;
+}
+
+.hero h1 {
+    color: #ffffff;
+}
+
+.hero h3,
+.hero p {
+    color: #f1f5f9;
+}
+.profile-img{
+    height: 400px;
+    width: 400px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+     border: 7px solid #7dd3fc;
+    
+
+}
+

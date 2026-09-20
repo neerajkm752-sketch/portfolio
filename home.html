@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- ading the css links of css and bootstrape -->
+    <title>Devesh Kumar portfolio</title> 
+    <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+ </head>
+<body>
+<header>
+    <!-- making the navbar -->
+<nav class="navbar ">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Portfolio</span>
+    <div class="nav-links">
+      <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav> 
+</header>
+<main>
+    <!-- making the hero section using the bootstrape -->
+    <section class="hero">
+        <!-- with help of container our content will not touch the boundry -->
+    <div class="container">
+        <!-- row will make a row in which coloumns can be formed -->
+        <div class="row align-items-center">
+
+            <!-- Left side -->
+             <!-- because a row have the 12 coloums and we are using the 7 columns here -->
+            <div class="col-md-7">
+                
+                <p class="intro">Hi, I'm</p>
+                <h1> <b>Devesh Kumar</b></h1>
+
+                <h3>Frontend Developer</h3>
+
+                <p class="description">
+                    I'm a Computer Science Engineering student
+                    learning web development and DSA.
+                </p>
+
+                <a href="projects.html" class="btn btn-primary">
+                    View Projects
+                </a>
+
+                <a href="resume.pdf"
+                   class="btn btn-dark">
+                    Download Resume
+                </a>
+            </div>
+
+            <!-- Right side -->
+            <div class="col-md-5 text-center">
+                <img src="me.jpg"
+                     alt="Devesh Kumar"
+                     class="profile-img">
+            </div>
+
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <!-- adding the javascript links here -->
+     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="app.js"></script>
+</footer>
+</body>
+</html>
