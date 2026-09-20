@@ -417,5 +417,382 @@ Positive means downward. */
     }
 
 }
+/* writing the code of css of contact section in background */
+css
+/* =================================
+   CONTACT PAGE
+================================= */
+
+.contact-section {
+    padding: 90px 0;
+    background-color: #f8f9fa;
+}
+
+
+/* =================================
+   CONTACT HEADING
+================================= */
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-small-heading {
+    color: #6c63ff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.contact-heading h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-heading h1 span {
+    color: #6c63ff;
+}
+
+.contact-intro {
+    max-width: 650px;
+    margin: auto;
+    color: #6c757d;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* =================================
+   LEFT CONTACT CARD
+================================= */
+
+.contact-info {
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    height: 100%;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.contact-description {
+    color: #6c757d;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+/* =================================
+   EMAIL
+================================= */
+
+.email-box {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    text-decoration: none;
+
+    color: #212529;
+
+    margin-bottom: 35px;
+}
+
+.contact-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #6c63ff;
+
+    color: white;
+
+    border-radius: 12px;
+
+    font-size: 22px;
+}
+
+.email-box h5 {
+    margin: 0;
+
+    font-size: 17px;
+
+    font-weight: 600;
+}
+
+.email-box p {
+    margin: 4px 0 0;
+
+    color: #6c757d;
+
+    font-size: 14px;
+}
+
+
+/* =================================
+   SOCIAL MEDIA
+================================= */
+
+.social-title {
+    font-size: 20px;
+
+    font-weight: 600;
+
+    margin-bottom: 18px;
+}
+
+.social-links {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+/* Individual social card */
+
+.social-card {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 13px;
+
+    border: 1px solid #e5e5e5;
+
+    border-radius: 12px;
+
+    text-decoration: none;
+
+    color: #212529;
+
+    transition: 0.3s ease;
+}
+
+
+/* Hover effect */
+
+.social-card:hover {
+    transform: translateX(7px);
+
+    border-color: #6c63ff;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =================================
+   SOCIAL ICON BOX
+================================= */
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    font-size: 21px;
+
+    background-color: #f0efff;
+
+    color: #6c63ff;
+}
+
+
+/* Social text */
+
+.social-card h5 {
+    margin: 0;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}
+
+.social-card p {
+    margin: 3px 0 0;
+
+    color: #6c757d;
+
+    font-size: 13px;
+}
+
+
+/* =================================
+   CONTACT FORM
+================================= */
+
+.contact-form {
+    background-color: white;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    height: 100%;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+    font-size: 30px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.contact-form > p {
+    color: #6c757d;
+
+    margin-bottom: 30px;
+}
+
+
+/* =================================
+   FORM LABEL
+================================= */
+
+.contact-form label {
+    display: block;
+
+    font-weight: 600;
+
+    margin-bottom: 8px;
+}
+
+
+/* =================================
+   INPUTS
+================================= */
+
+.contact-form .form-control {
+    padding: 13px 15px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 10px;
+
+    box-shadow: none;
+}
+
+.contact-form .form-control:focus {
+    border-color: #6c63ff;
+
+    box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.12);
+}
+
+
+/* =================================
+   FORM GROUP
+================================= */
+
+.form-group {
+    margin-top: 20px;
+}
+
+
+/* =================================
+   SEND BUTTON
+================================= */
+
+.send-btn {
+    margin-top: 25px;
+
+    padding: 13px 25px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #6c63ff;
+
+    color: white;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.send-btn i {
+    margin-left: 8px;
+}
+
+.send-btn:hover {
+    background-color: #574fd6;
+
+    transform: translateY(-3px);
+}
+
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+    padding: 25px;
+
+    text-align: center;
+
+    background-color: #111827;
+
+    color: #adb5bd;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* =================================
+   MOBILE
+================================= */
+
+@media (max-width: 768px) {
+
+    .contact-section {
+        padding: 60px 15px;
+    }
+
+    .contact-heading h1 {
+        font-size: 38px;
+    }
+
+    .contact-info,
+    .contact-form {
+        padding: 25px;
+    }
+
+}
+
+
 
 
