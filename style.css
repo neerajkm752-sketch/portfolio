@@ -91,6 +91,7 @@
 /* writing css code for the skills section */
 .skills-section{
      min-height: 100vh;
+     
      background: linear-gradient(
         135deg,
         #111827,
@@ -102,6 +103,7 @@
 }
 .skills-heading {
     margin-bottom: 60px;
+   
 }
 .skills-heading h1{
     /* font-weight controls how thick/bold the text is. */
