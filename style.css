@@ -167,7 +167,13 @@ Positive means downward. */
 
 .projects-hero {
     padding: 80px 20px 50px;
-    background-color: #f8fafc;
+       background: linear-gradient(135deg,#8fdada,#feffff);
+       border-radius: 70px;
+}
+.main{ 
+    /* background-color: #c8e2f8; */
+    background: linear-gradient(135deg,#ebfafa,#b5f7f7);
+     
 }
 
 
@@ -200,8 +206,9 @@ Positive means downward. */
 /* Projects Section */
 
 .projects-section {
-    background-color: #f8fafc;
+      background: linear-gradient(135deg,#ebfafa,#b5f7f7);
     padding: 30px 20px 80px;
+    border-radius: 70px;
 }
 
 
@@ -429,7 +436,7 @@ css
 
 .contact-section {
     padding: 90px 0;
-    background-color: #f8f9fa;
+    background-color:#c7dced;
 }
 
 
@@ -440,6 +447,9 @@ css
 .contact-heading {
     text-align: center;
     margin-bottom: 60px;
+    /* background-color: #b3fafa; */
+    background: linear-gradient(135deg,#8fdada,#feffff);
+    border-radius: 100px;
 }
 
 .contact-small-heading {
@@ -933,6 +943,9 @@ browser-prefixed version */
     border-radius: 8px;
     padding: 8px 15px;
 }
-
+.contact-section {
+    padding: 90px 0;
+     background: linear-gradient(135deg ,#fdfefe,#cbf5f5) !important;
+}
 
 
