@@ -57,13 +57,17 @@
     background: linear-gradient(135deg, #0B1220, #172554, #1E40AF);
     color: #e2e8f0;
 }
-.about-image img{
-     height: 350px;
+
+     .about-image img {
+    height: 350px;
     width: 300px;
+    max-width: 100%;
     border: 6px solid #045073;
-     border-radius: 12px;
-      object-fit: cover;
+    border-radius: 12px;
+    object-fit: cover;
 }
+
+
 .interest-card {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -793,6 +797,142 @@ footer p {
 
 }
 
+/* writing code for the dark mode inside the home page */
+/* prerequisite
+cursor: pointer  
+
+☝️
+
+
+
+This tells the user:
+
+"This thing can be clicked."
+
+
+
+mb-0
+
+means:
+
+margin-bottom = 0
+
+So it removes the bottom margin.
+
+
+
+body.dark-mode {     background-color: #121212;     color: white; }  
+
+"If the <body> has a class named dark-mode, apply these styles."  
+
+.toggle("dark-mode")
+
+This is the really important part.
+
+
+
+toggle() means
+
+If it isn't there → add it.
+ If it is already there → remove it.  
+
+
+
+body.dark-mode .hero
+
+This is slightly more advanced.
+
+
+
+It means:
+
+Select an element with class .hero that is inside a <body> having the dark-mode class. */
+
+/* =========================
+   DARK / LIGHT MODE BUTTON
+   ========================= */
+
+.theme-btn {
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.theme-btn:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+
+/* =========================
+   DARK MODE
+   ========================= */
+
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .navbar-brand {
+    color: white;
+}
+
+body.dark-mode .nav-links a {
+    color: white;
+}
+
+body.dark-mode .hero {
+    background-color: #121212;
+}
+
+body.dark-mode .description,
+body.dark-mode .intro {
+    color: #cccccc;
+}
+
+/* changing the brand name portfolio styling */
+/* pre requisite
+1)-webkit-background-clip: text;
+
+It basically tells the browser:
+
+Clip/cut the background so that it is visible only where the text is.
+2)-webkit-background-clip: text;
+
+It basically tells the browser:
+
+Clip/cut the background so that it is visible only where the text is. */
+/* 3)background-clip: text;
+        ↓
+standard CSS property
+
+-webkit-background-clip: text;
+        ↓
+browser-prefixed version */
+
+.brand-name {
+    font-weight: 800;
+    background: linear-gradient(90deg, #6c63ff, #00c6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* adding css for the active navbar */
+.nav-links a.active {
+    background-color: #212529;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
 
 
 
